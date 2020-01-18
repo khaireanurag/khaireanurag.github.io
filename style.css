@@ -1,53 +1,71 @@
 
-    h1, h2, marquee{
-        color : purple;
-        font-size : 96px;
-        margin-top: 2px;
-        margin-bottom: 2px;
-        border: 1px solid black;
-        padding-left: 15px;
-    }
+    body {
+      background-color: black;
+  }
 
-    p{
-        text-align: center;
-        font-family: helvetica;
-    }
+/* Container holding the image and the text */
 
-    img {
-        height: 320px;
-        /*width: 200px;*/
-    }
+.centered_image {
+  position: relative;
+  text-align: center;
+  /* color: white; */
+}
 
-    em {
-        text-transform: uppercase;
-        font-style: initial;
-    }
 
-    #first   {
-        text-align: left;
-        font-family: helvetica;
-    }
+.right_image {
+  position: relative;
+  text-align: right;
+  /* color: white; */
+}
 
-    .right  {
-        text-align: center;
-        font-family: helvetica;
-    }
 
-    .tacos  {
-        color: green;
-    }
 
-    .big  {
-        font-size: 50px;
-        font-family: helvetica;
-    }
+/* Bottom left text */
+.bottom-left {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: helvetica;
+  font-size: 20px;
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+  color: white;
+}
 
-    p.tacos .big  {
-        font-size: 100px;
-        font-family: helvetica;
-    }
 
-    /* body {
-        background-color: yellowgreen;
-    } */
+/* Bottom right text */
+.bottom-right {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: helvetica;
+  font-size: 20px;
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+  color: white;
+}
 
+/* Center text */
+.center-text {
+  font-weight: bold;
+  font-family: helvetica;
+  font-size: 20px;
+  position: absolute;
+  bottom: 200px;
+  right: 800px;
+  padding-left: 60px;
+  color: white;
+}
+
+/* Adding effects when mouse howers over the text */
+
+a:hover {
+  color: rgb(240, 145, 36);
+}
+
+/* No underline or blue colour when hyperlinked */
+
+a {
+   text-decoration: none; 
+   color: white;
+  }
