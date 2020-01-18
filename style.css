@@ -1,0 +1,53 @@
+
+    h1, h2, marquee{
+        color : purple;
+        font-size : 96px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        border: 1px solid black;
+        padding-left: 15px;
+    }
+
+    p{
+        text-align: center;
+        font-family: helvetica;
+    }
+
+    img {
+        height: 320px;
+        /*width: 200px;*/
+    }
+
+    em {
+        text-transform: uppercase;
+        font-style: initial;
+    }
+
+    #first   {
+        text-align: left;
+        font-family: helvetica;
+    }
+
+    .right  {
+        text-align: center;
+        font-family: helvetica;
+    }
+
+    .tacos  {
+        color: green;
+    }
+
+    .big  {
+        font-size: 50px;
+        font-family: helvetica;
+    }
+
+    p.tacos .big  {
+        font-size: 100px;
+        font-family: helvetica;
+    }
+
+    /* body {
+        background-color: yellowgreen;
+    } */
+

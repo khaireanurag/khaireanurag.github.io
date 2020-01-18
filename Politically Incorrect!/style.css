@@ -1,0 +1,71 @@
+
+    body {
+      background-color: black;
+  }
+
+/* Container holding the image and the text */
+
+.centered_image {
+  position: relative;
+  text-align: center;
+  /* color: white; */
+}
+
+
+.right_image {
+  position: relative;
+  text-align: right;
+  /* color: white; */
+}
+
+
+
+/* Bottom left text */
+.bottom-left {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: helvetica;
+  font-size: 20px;
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+  color: white;
+}
+
+
+/* Bottom right text */
+.bottom-right {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: helvetica;
+  font-size: 20px;
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+  color: white;
+}
+
+/* Center text */
+.center-text {
+  font-weight: bold;
+  font-family: helvetica;
+  font-size: 20px;
+  position: absolute;
+  bottom: 200px;
+  right: 800px;
+  padding-left: 60px;
+  color: white;
+}
+
+/* Adding effects when mouse howers over the text */
+
+a:hover {
+  color: rgb(240, 145, 36);
+}
+
+/* No underline or blue colour when hyperlinked */
+
+a {
+   text-decoration: none; 
+   color: white;
+  }

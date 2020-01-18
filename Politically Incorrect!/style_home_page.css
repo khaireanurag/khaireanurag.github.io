@@ -1,0 +1,115 @@
+
+    body {
+      background-color: white;
+  }
+
+/* Container holding the image and the text */
+
+.centered_image {
+  position: relative;
+  text-align: center;
+  /* color: white; */
+}
+
+
+.right_image {
+  position: relative;
+  text-align: right;
+  /* color: white; */
+}
+
+.left_image {
+  position: relative;
+  text-align: left;
+  /* color: white; */
+}
+
+
+
+/* Bottom right text */
+.bottom-right {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: serif;
+  font-size: 60px;
+  position: absolute;
+  bottom: 150px;
+  left: 220px;
+  color: black;
+}
+
+/* Center text */
+.align-centre1 {
+  font-weight: bold;
+  font-family: helvetica;
+  font-size: 20px;
+  position: absolute;
+  bottom: 250px;
+  right: 530px;
+  /* padding-left: 60px; */
+  color: black;
+}
+
+.align-centre2 {
+  font-weight: bold;
+  font-family: helvetica;
+  font-size: 20px;
+  position: absolute;
+  bottom: 250px;
+  right: 370px;
+  /* padding-left: 60px; */
+  color: black;
+}
+
+.align-centre3 {
+  font-weight: bold;
+  font-family: helvetica;
+  font-size: 20px;
+  position: absolute;
+  bottom: 250px;
+  right: 210px;
+  /* padding-left: 60px; */
+  color: black;
+}
+
+.align-below {
+  font-weight: bold;
+  font-family: helvetica;
+  width: 21cm;
+  font-size: 20px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  /* padding-left: 60px; */
+  color: black;
+}
+
+/* Adding effects when mouse howers over the text */
+
+a:hover {
+  color: rgb(240, 145, 36);
+}
+
+/* No underline or blue colour when hyperlinked */
+
+a {
+   text-decoration: none; 
+   color: black;
+  }
+
+.emailme
+{
+  text-decoration: underline; 
+  color: blue;
+}
+
+  /* Changing Button Properties including size */
+  .btn-primary {
+    font-weight: bold;
+    font-family: helvetica;
+    color: white;
+    background-color: black;
+    border-color: black;
+
+    width: 150px;
+} 

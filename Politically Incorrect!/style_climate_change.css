@@ -1,0 +1,122 @@
+
+    body {
+      background-color: white;
+  }
+
+/* Container holding the image and the text */
+
+.centered_image {
+  position: relative;
+  text-align: center;
+  /* color: white; */
+}
+
+
+.right_image {
+  position: relative;
+  text-align: right;
+  /* color: white; */
+}
+
+.left_image {
+  position: relative;
+  /* filter: blur(8px); */
+  opacity: 0.2;
+  /* color: white; */
+}
+
+
+
+/* Bottom right text */
+.bottom-right {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: serif;
+  font-size: 60px;
+  position: absolute;
+  bottom: 150px;
+  left: 220px;
+  color: black;
+}
+
+/* Center text */
+.topright {
+  font-weight: bold;
+  font-family: helvetica;
+  font-size: 20px;
+  position: absolute;
+  bottom: 550px;
+  right: 20px;
+  /* padding-left: 60px; */
+  color: black;
+}
+
+.align-below {
+  font-weight: bold;
+  font-family: helvetica;
+  width: 21cm;
+  font-size: 20px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  /* padding-left: 60px; */
+  color: black;
+}
+
+/* Adding effects when mouse howers over the text */
+
+a:hover {
+  color: rgb(240, 145, 36);
+}
+
+/* No underline or blue colour when hyperlinked */
+
+a {
+   text-decoration: none; 
+   color: black;
+  }
+
+.emailme
+{
+  text-decoration: underline; 
+  color: blue;
+}
+
+  /* Changing Button Properties including size */
+  .btn-primary {
+    font-weight: bold;
+    font-family: helvetica;
+    color: white;
+    background-color: black;
+    border-color: black;
+
+    width: 150px;
+} 
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top:   150px;  /* I usually locate relative to top  */
+  left:     130px; /* left corner of container (screen) */
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  /* text-align: center; */
+
+}
+
+.centretext {
+  color: white;
+  text-align: center;
+}
+
+.lefttext {
+  color: white;
+  text-align: left;
+  margin-left: 30px;
+}
