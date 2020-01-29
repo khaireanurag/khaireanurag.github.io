@@ -1,74 +1,94 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Politically Incorrect - Home Page</title>
+    <!-- Google Fonts -->
+    <!-- Swap out "Roboto" for the font(s) you want to use -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     
-<!-- Compressed CSS for BootStrap -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
-<!-- Compressed JavaScript for Bootstrap -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <!-- Your own CSS -->
+    <link rel="stylesheet" href="styles.css">
 
-<!-- Adding alternate Stylesheet -->
-<link href="style_home_page.css" rel="stylesheet">
+    <title>Politically Incorrect!</title>
+  </head>
+  <body>
+    <!-- Your stuff goes here -->
 
-</head>
+<!-- MY WORKSPACE START ----------------------------------  ------------------------------>
 
-<body>
+<!-- Element 2 Jumbotron at the top -->
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+  <tr>
+    <!-- Element 3 : Politically Incorrect Logo -->
+      <th><img src="PI Logo.jpg" class="img-fluid logoimage"></th>
+  </tr>
+  <tr>
+    <span class = "bottom-right">
+    <!-- Element 4 : Open Debate Forum Logo -->
+    <p>OPEN </p>
+    <p>DEBATE</p>
+    <p>FORUM</p>
+   </span>
+  </tr>
+  </div>
+  <!-- Adding the three buttons with their messages-->
+  <p>
+    <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+      About
+    </a>
+  </p>
 
-    <!-- Adding Big Ben Image Stylesheet -->
-    <span class = "left_image">
-        <img src= "Big Ben.png" alt="Snow" style="width:37%;">
-        </span>
+  <div class="collapse" id="collapseExample">
+    <div class="card card-body">
+      This forum is created to have an open debate about current pressing topics. People are encouraged to share their honest opinions. From time to time we will keep posting our own opinion blog supported with proper analysis.  
+    </div>
+  </div>
+  <!-- <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> -->
+  <p>
+    <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+      Topics
+    </a>
+  </p>
 
-        <span class = "bottom-right">
-        
-         <p>OPEN </p>
-         <p>DEBATE</p>
-         <p>FORUM</p>
-        
-        </span>
-        <!-- Adding Collapse Buttons -->
+  <div class="collapse" id="collapseExample2">
+    <div class="card card-body">
+      Click to View :
+      <a href="Climate Change.html">1. Climate Change</a>
+    </div>
+  </div>
 
-        <p class="align-centre1">
-            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-              About
-            </a>
-          </p>
-          <div class="collapse align-below" id="collapseExample">
-            <div class="card card-body">
-              Mesage 1.
-            </div>
-          </div>
+  <p>
+    <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
+      Contact
+    </a>
+  </p>
 
-          <p class="align-centre2">
-            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
-              Topics
-            </a>
-          </pclass="align-centre">
-          <div class="collapse align-below" id="collapseExample2">
-            <div class="card card-body">
-              Click to View :
-              <a href="Climate Change.html">1. Climate Change</a>
-            </div>
-          </div>
+  <div class="collapse" id="collapseExample3">
+    <div class="card card-body">
+      <p>If you want to debate any of the posted topics, or want to share your opinion on any other issue, feel free to contact me at: </p>
+      <a class="emailme" HREF="mailto:akhaire.mba2020@london.edu">Click to Email</a>
+    </div>
+  </div>
 
-          <p class="align-centre3">
-            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
-              Contact
-            </a>
-          </pclass="align-centre">
-          <div class="collapse align-below" id="collapseExample3">
-            <div class="card card-body">
-              <p>If you want to debate any of the posted topics, or want to share your opinion on any other issue, feel free to contact me at: </p>
-              <a class="emailme" HREF="mailto:akhaire.mba2020@london.edu">Click to Email</a>
-            </div>
-          </div>
+</div>
 
-</body>
+
+<!-- MY WORKSPACE END ---------------------------------------------------------------->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
